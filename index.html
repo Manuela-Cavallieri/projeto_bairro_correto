@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <title>webSite</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">P<span>IR</span>IT<span>UB</span>A</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Início</a></li>
+                <li class="nav-item"><a href="historia.html">História</a></li>
+                <li class="nav-item"><a href="comercio.html">Comércio</a></li>
+                <li class="nav-item"><a href="info.html">Info.demográfica</a></li>
+                <li class="nav-item"><a href="#isso">Cadastro</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4  class="text-h4">Bem vindo(a) ao Bairro de Pirituba</h4>
+                <h1 class="text-h1">Tenha uma moradia segura e divertida!</h1>
+                <p>Pirituba é um distrito situado na Zona Noroeste do município
+                de São Paulo, no Brasil.</p>
+                <a href="#" class="home-btn">Conheça já</a>
+            </div>
+            <div class="home-img">
+                <img src="imagens/pirituba 2.jpg" alt="pirituba">
+            </div>
+        </section>
+        <h2 id="isso"style="color: #8f9e6f; text-align: center;">Ainda não tem cadastro? Cadastre-se e fique por dentro!</h2>
+        <div class="icones_cadastro">
+            <img class="fundo_cadastro"src="imagens/fundo_cadastro-removebg-preview.png" alt="fundo-cadastro">
+            <img class="icone_cadastro"src="imagens/icone_cadastro.png" alt="icone_cadastro">
+        </div>
+        <form class = 'form'>
+            <fieldset class="grupo">
+              <div class="box-formulario1">
+                <div class="campo">
+                    <label for="nome">Digite seu nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+    
+                <div class="campo">
+                    <label for="sobrenome">Digite seu sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+    
+                <div class="campo">
+                    <label for="numero">Digite seu telefone</label>
+                    <input type="text" name="Número" id="Número" required>
+                </div>
+    
+                <div class="campo">
+                  <label for="email"> Digite seu email</label>
+                  <input type="text" name="email" id="email" required>
+              </div>
+              </div>
+                </div>
+                <div class="box-formulario2">
+                  <div class="campo">
+                      <label for="CPF">Digite seu CPF</label>
+                      <input type="text" name="CPF" id="CPF" required>
+                  </div>
+      
+                  <div class="campo">
+                      <label for="senha">Crie uma senha</label>
+                      <input type="text" name="senha" id="senha" required>
+                  </div>
+      
+                  <div class="campo">
+                      <label for="senha">Confirme sua senha</label>
+                      <input type="text" name="senha" id="senha" required>
+                  </div>
+                  <div class="campo">
+                    <label for="confirmação">Insira código de confirmação</label>
+                    <input type="text" name="cóg" id="cóg" required>
+                </div>
+                </div>
+                <div class="campo-notificacoes">
+                  <div class="campo">
+                      <label>Deseja receber notificações?</label>
+                      <label>
+                          <input type="radio" name ='devweb' value= "Sim">Sim 
+                      </label>
+                      <label>
+                          <input type ='radio' name="devweb" value="Não">Não
+                      </label>
+                  </div>
+                </div>
+                <div class="campo-logado">
+                <div class="campo">
+                    <label for="login">Deseja manter-se logado?</label>
+                    <select id="login">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="botao-formulario">
+                <button type="submit">Concluído</button>
+                </div>    
+                </div>
+            </fieldset>
+        </form>
+            <hr>
+        <div> 
+            <h2 style="color: #8f9e6f; text-align: center; margin-bottom: 15px;">Surpreenda-se com Pirituba. Saiba das curiosidades!</h2>
+            <div class="curiosidade 1">
+                <img id="museu" src="imagens/museu.webp" alt="museu">
+                <div class="textocuriosidade1">
+                <p>#1 Neste bairro vivia a amante de Dom Pedro 1°</p>
+                Por mais curioso que isso possa parecer – e até mesmo sendo um dado um tanto quanto irrelevante para os dias de hoje – no passado, o bairro de Pirituba era conhecido por alguns paulistas da alta sociedade por abrigar em seu seio uma residência um tanto quanto famosa na cidade: a da amante do imperador Dom Pedro I. Tratava-se nada mais, nada menos, do que a casa da Dona Domitila de Castro do Canto e Mello, a Marquesa de Santos, uma senhora de origem brasileira que roubou o coração de nosso príncipe governante e que pertencia a uma das famílias mais tradicionais da cidade. O imóvel aonde viveu a marquesa, na atualidade, abriga o Museu da Cidade de São Paulo e é uma referência para o Patrimônio Histórico Nacional.
+                </div>
+            </div>
+            <div class="curiosidade2">
+                <img id="pico" src="imagens/pico do jargagua.jpg" alt="pico do jaragua">
+                <div class="textocuriosidade2">
+                <p>#2 Região próspera de ouro inicialmente</p>
+                Na região de Pirituba, situada ao norte do Rio Tietê, encontra-se um famoso monte brasileiro, o Pico do Jaraguá, local onde muitos desbravadores encontraram a primeira expressiva mina de ouro brasileira, muito tempo antes delas fazerem fama no Estado de Minas Gerais. Isto ocorreu no início do século XVII, quando o pequeno povoado de Pirituba sequer era considerável, e muito menos visto a olho nu lá de cima do pico! Historicamente, a região servia de acesso a alguns municípios vizinhos, que hoje foram a grande região da Zona Norte da Grande São Paulo, como é o caso de cidades como Caieiras, Franco da Rocha, Francisco Morato e Mairiporã.
+                </div>
+            </div>
+            <div class="curiosidade3">
+                <img id="Castelinho" src="imagens/castelinho dos ingleses.jfif" alt="Castelinho dos ingleses">
+                <div class="textocuriosidade3">
+                <p>#3 Pra inglês ver </p>
+                No bairro de Pirituba, desde 1929, foi erguida uma residência na qual viveu o presidente da companhia de estradas de ferro São Paulo Railway, o inglês Aleck Wellington. Chamado atualmente de “Castelinho dos Ingleses”, o local serviu também como residência para alguns funcionários da empresa ferroviária, sendo hoje utilizado como um salão de festas para moradores de um condomínio de luxo de casas para alugar em Pirituba ou mesmo à venda, para um público de alto poder aquisitivo. Para essa parcela da população da localidade, Pirituba conta com algumas famosas áreas nobres bastante especuladas pelo mercado imobiliário local, como por exemplo: Água Fria, City América. Alto de Santana, Jardim São Paulo, Jardim Floresta, Jardim São Bento, Jardim Barro Branco, Jardim França, Serra da Cantareira, Parque Palmas do Tremembé e o Jardim Guapira.
+                </div>
+            </div>
+        </div>
+        <a href="#" class="volte-btn">Voltar ao início</a>
+    </main>
+    <footer class="rodapé">
+        <div class="redesocial">
+        <img class="face" src="imagens/face.png" alt="face">
+        <img class="insta"src="imagens/insta.png" alt="insta">
+        <img class ="tiktok"src="imagens/tiktok.png" alt="tiktok">
+        <img class="tt"src="imagens/twitter.png" alt="tt">
+        <img class ="ytb"src="imagens/ytb.png" alt="ytb">
+        </div>
+        <p class='copyright'style="color: black; margin-left: 30px; margin-top: 10px;">Copyright © 2022 . Todos os direitos reservados.
+        </p>
+    </footer>
+    
+   <script src="index.js"></script>
+
+</body>
+</html>
